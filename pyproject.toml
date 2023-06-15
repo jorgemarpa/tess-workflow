@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tess-workflow"
+version = "0.1.0"
+description = "Set of scripts to run PSFMachine in TESS data"
+authors = ["Jorge Martínez-Palomera <jorgemarpa@ug.uchile.cl>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "scipy"
+scipy = "^1.10.1"
+matplotlib = "^3.7.1"
+fitsio = "^1.1.9"
+lightkurve = "^2.4.0"
+psfmachine = "^1.1.0"
+pandas = "^2.0.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
